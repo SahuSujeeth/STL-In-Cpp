@@ -1,0 +1,14 @@
+STL -- Standard Template Library
+STL in C++ are divide into 4 types...
+  -->Alogrithms
+  -->Containers
+  -->Funtions
+  -->Iterations.
+
+FIRST WE LEARN HERE IS CONTAINERS... AND THEN GO ON...
+BEFORE GOING TO THIS WE HAVE TO LEARN ABOUT PAIRS...
+WHAT IS PAIRS??
+Pairs is part of Utility Libraries..
+It can store the couple of integers whatever the datatypes... it may be int or float or string are something else...
+Here we use nested properity of pair also for storinng the 3,4 and so on... values.
+
