@@ -61,3 +61,50 @@ The goal is to strengthen problem-solving and coding skills using **vectors, pai
 ## 🏷️ Day Summary
 Today’s focus was on **STL Containers** (Stack, Deque, List) — building a strong foundation in C++ STL, which is highly useful in DSA and competitive programming.
 
+---
+
+# 📘 STL – Stack, Queue & Priority Queue (Day 3)
+
+Today I explored **container adaptors** in C++ STL: **Stack, Queue, and Priority Queue**.  
+These are built on top of other containers (like `deque` or `vector`) but provide restricted access to ensure correct usage.
+
+---
+
+## 📌 Topics Covered
+
+### 🔹 Stack (LIFO – Last In, First Out)
+- Operations:
+  - `push(x)` → Insert element on top
+  - `pop()` → Remove top element
+  - `top()` → Access top element
+  - `empty()` → Check if stack is empty
+  - `size()` → Number of elements
+- Additional: `swap(s1, s2)` to exchange contents of two stacks.
+
+---
+
+### 🔹 Queue (FIFO – First In, First Out)
+- Operations:
+  - `push(x)` → Insert element at back
+  - `pop()` → Remove element from front
+  - `front()` → Access front element
+  - `back()` → Access last element
+  - `empty()` / `size()`
+
+⚠️ **Note:** `queue` does not provide iterators or range-based for loops.  
+To print elements, we must pop them one by one.
+
+---
+
+### 🔹 Priority Queue (Heap-based)
+- By default, **max-heap** (largest element at top).
+- For **min-heap**: use  
+  ```cpp
+  priority_queue<int, vector<int>, greater<int>> pq;
+
+- ## 📂 Topics Covered
+- ✅Stack
+- ✅ Queue
+- ✅ PriorityQueue
+
+
