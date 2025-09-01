@@ -107,4 +107,65 @@ To print elements, we must pop them one by one.
 - ✅ Queue
 - ✅ PriorityQueue
 
+---
+
+# Day 4 - C++ STL Practice
+
+**Topics Covered:**
+
+* Set
+* Multiset
+* Unordered Set
+* Map
+* Multimap
+* Unordered Map
+
+---
+
+## Summary
+
+Today, I explored various **C++ Standard Template Library (STL) containers** focused on **associative containers**.
+
+### 1. Set
+
+* Stores **unique elements** in **sorted order**.
+* Provides **logarithmic time complexity** for insertion, deletion, and search.
+
+### 2. Multiset
+
+* Stores **duplicate elements** in **sorted order**.
+* Useful when you need **counting of duplicates** with automatic ordering.
+
+### 3. Unordered Set
+
+* Stores **unique elements** in **unsorted order**.
+* Provides **average constant time complexity** for insertion, deletion, and search.
+
+### 4. Map
+
+* Stores **key-value pairs** with **unique keys** in **sorted order by key**.
+* Useful for **associative mapping**.
+
+### 5. Multimap
+
+* Stores **key-value pairs** but **allows duplicate keys**.
+* Keys are stored in **sorted order**.
+
+### 6. Unordered Map
+
+* Stores **key-value pairs** with **unique keys** in **unsorted order**.
+* Provides **average constant time complexity** for insertion, deletion, and search.
+
+---
+
+## Key Notes
+
+* Iterating with `&` in a for loop helps **save memory** by avoiding copying elements.
+* `unordered_*` containers are generally **faster for lookup** if ordering is not needed.
+* `multiset` and `multimap` are useful when **duplicates are allowed**.
+
+---
+
+
+
 
