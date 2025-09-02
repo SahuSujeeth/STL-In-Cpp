@@ -166,6 +166,38 @@ Today, I explored various **C++ Standard Template Library (STL) containers** foc
 
 ---
 
+# 📘 DSA Practice – Day 5  
+
+## 📌 Algorithms Covered  
+Today we explored important **C++ STL algorithms** frequently used in DSA:  
+- `sort()` with custom comparator  
+- `__builtin_popcount()` and `__builtin_popcountll()`  
+- `next_permutation()`  
+
+---
+
+## 🔹 Sorting with Custom Comparator  
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+bool cmp(pair<int,int> a, pair<int,int> b) {
+    if (a.second == b.second) return a.first < b.first;  // tie-breaker
+    return a.second < b.second;  // sort by second element
+}
+
+int main() {
+    vector<pair<int,int>> vp = {{1,2}, {3,1}, {2,2}, {5,1}};
+    sort(vp.begin(), vp.end(), cmp);
+
+    cout << "Sorted Pairs:\n";
+    for (auto p : vp) cout << "(" << p.first << "," << p.second << ") ";
+}
+
+` SOME MORE IMPORTANT ALGORITHMS IN THIS U CHECK THE CODE FOR THIS...`
+
+
 
 
 
