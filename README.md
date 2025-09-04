@@ -198,6 +198,10 @@ int main() {
 ` SOME MORE IMPORTANT ALGORITHMS IN THIS U CHECK THE CODE FOR THIS...`
 
 
+##  Day 6
+~Today nothing to push this is for strike 
+
+
 
 
 
