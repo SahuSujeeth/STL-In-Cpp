@@ -199,7 +199,9 @@ int main() {
 
 
 ##  Day 6
-~Today nothing to push this is for strike 
+~Today nothing to push this is for strike...
+
+The main important DS and Alogrithms has been completed...This is just basics for the STL of CPP...
 
 
 
